@@ -1,0 +1,145 @@
+"lang"
+{ 
+	"Language" "Czech" 
+	"Tokens" 
+	{
+//I don't think this one is used
+		"BSHIFT_CampaignName_BMSCP1"		"Black Mesa: Blue Shift"
+
+//Those are used in gameplay
+		"BSHIFT_Chapter1_Title_Ingame"				"ODJEZD Z UBYTOVEN"
+		"BSHIFT_Chapter2_Title_Ingame"				"NEJISTOTA"
+		"BSHIFT_Chapter3_Title_Ingame"				"PRÁCE VOLÁ"
+		"BSHIFT_Chapter4_Title_Ingame"				"NÁKLAD V ZAJETÍ"
+		"BSHIFT_Chapter5_Title_Ingame"				"ÚSTŘEDNÍ BOD"
+		"BSHIFT_Chapter6_Title_Ingame"				"ENERGETICKÉ PROBLÉMY"
+		"BSHIFT_Chapter7_Title_Ingame"				"SKOK DŮVĚRY"
+		"BSHIFT_ChapterC_Title_Ingame"				"DOUPĚ CHUMTOADA"
+		
+//Those are used in menus
+		"BSHIFT_Chapter0_Title"							"Neznámá mapa"		//This one should show up if we loaded a map not from any of our chapters
+		"BSHIFT_Chapter1_Title"							"Odjezd z ubytoven"
+		"BSHIFT_Chapter2_Title"							"Nejistota"
+		"BSHIFT_Chapter3_Title"							"Práce volá"
+		"BSHIFT_Chapter4_Title"							"Náklad v zajetí"
+		"BSHIFT_Chapter5_Title"							"Ústřední bod"
+		"BSHIFT_Chapter6_Title"							"Energetické problémy"
+		"BSHIFT_Chapter7_Title"							"Skok důvěry"
+		"BSHIFT_Chapter8_Title"							"Titulky"
+		
+//These are intro messages
+		"BSHIFT_Intro_Location"			"Výzkumné zařízení Black Mesa\nBlack Mesa, Nové Mexiko"
+		"BSHIFT_Intro_Subject"			"SUBJEKT:\nB. Calhoun\nMuž"
+		"BSHIFT_Intro_Education"			"VZDĚLÁNÍ:\n2 roky Martinson College\nNerozhodnutý obor"
+		"BSHIFT_Intro_Experience"			"ZKUŠENOST:\n3 roky Námořní pěchota USA,\nženijní prapor"
+		"BSHIFT_Intro_Position"			"POZICE:\nStrážník"
+		"BSHIFT_Intro_Employer"			"ZAMĚSTNAVATEL:\nVýzkumné zařízení Black Mesa"
+		"BSHIFT_Intro_Assignment"			"PŘIŘAZENÍ:\nOchrana Oblasti 3"
+		"BSHIFT_Intro_Clearance"			"OPRÁVNĚNÍ:\nBezpečnostní úroveň 3"
+		"BSHIFT_Intro_Sponsor"			"ADMINISTRATIVNÍ SPONZOR:\nL. M."
+		"BSHIFT_Intro_Priority"			"PRIORITA PŘI KATASTROFĚ:\nZachování výbavy\na materiálů zařízení"
+		"BSHIFT_Intro_Priority2"			"SEKUNDÁRNÍ PRIORITA:\nPéče o výzkumný personál"
+		"BSHIFT_Intro_Priority3"			"NÍZKÁ PRIORITA:\nOsobní bezpečnost"
+		
+//Default game over messages
+	//About losing something important
+		"BSHIFT_GameOver_Object"				"SUBJEKT: Calhoun\n\nSTATUS: Uvíznut v zařízení\n\nDŮVOD: Selhání zachovat\nzdroje klíčové pro misi"
+	//About getting Rosenberg and other important scientists killed
+		"BSHIFT_GameOver_Ally"					"SUBJEKT: Calhoun\n\nSTATUS: Uvíznut v zařízení\n\nDŮVOD: Selhání zachovat\npersonál klíčový pro misi"
+	//IDK, maybe when he fails to get into the portal
+		"BSHIFT_GameOver_Timer"					"SUBJEKT: Calhoun\n\nSTATUS: Zemřelý\n\nDŮVOD: Špatné využití\npřiděleného času"
+	//When you fall somewhere not possible to get out of
+		"BSHIFT_GameOver_Stuck"					"SUBJEKT: Calhoun\n\nSTATUS: Zemřelý\n\nDŮVOD: Ukázka nadmíru\nchabého úsudku"
+	//When you die in the first predisaster map
+		"BSHIFT_GameOver_Suicide"				"SUBJEKT: Calhoun\n\nSTATUS: Zemřelý\n\nDŮVOD: Rozhodl se spáchat sebevraždu."
+		
+// New or mostly edited messages
+	//This should be used in the second chapter only, because no one will fire him from his job anymore later [original HLBS message]
+		"BSHIFT_GameOver_Derp"					"SUBJEKT: Calhoun\n\nSTATUS: Pracovní poměr ukončen\n\DŮVOD: Nesprávné zacházení\nse zbraní v zařízení"
+	//This is used when the game is finished [original HLBS message]
+		"BSHIFT_GameOver_Credits"				"SUBJEKT: Calhoun\n\nSTATUS: Mimo dosah\n\nBez dalšího komentáře"
+	//When you die or fall to the abyss in Xen
+		"BSHIFT_GameOver_XenFailure"				"SUBJEKT: Calhoun\n\nSTATUS: Neznámý\n\nDŮVOD: Je předpokládáno, že zaměstnanec\nzmizel se zbývajícím personálem\nběhem incidentu Lambda."
+
+//Hints, those do not need spaces before and after % in the game
+		"BMS_Hint_Use"								"%+use%POUŽÍT"
+		"BMS_Hint_MultiUse"					"%+use%SEBRAT PŘEDMĚT%+attack%HODIT PŘEDMĚT%+attack2%PUSTIT PŘEDMĚT"
+		"BMS_Hint_PickUp"						"%+use%UCHOPIT"
+		"BMS_Hint_FlarePickUp"			"%+use%UCHOPIT SVĚTLICI"
+		"BMS_Hint_FlareThrow"			"%+attack%HODIT SVĚTLICI"
+		"BMS_Hint_Flashlight" 				"%impulse 100%BATERKA"
+		"BMS_Hint_Jump"						"%+jump%SKOK"
+		"BMS_Hint_Crouch"					"%+duck%SKRČIT SE"
+		"BMS_Hint_CrouchJump"		"%+jump%SKRČENÍ PŘI SKOKU%+duck%"
+		"BMS_Hint_Sprint"						"%+speed%SPRINTOVAT"
+		"BMS_Hint_SprintJump"			"%+speed%STISKNI A DRŽ %+jump%PRO SKOK PŘI SPRINTU"
+		"BMS_Hint_Follow"						"%+use%POŽÁDAT STRÁŽNÉHO, ABY TĚ NÁSLEDOVAL"
+		"BMS_Hint_Follow2"					"%+use%POŽÁDAT VĚDCE, ABY TĚ NÁSLEDOVAL"
+		"BMS_Hint_TalkPerson"			"%+use%PROMLUVIT S PERSONÁLEM"
+		"BMS_Hint_Interact"					"%+use%INTERAKCE"
+		"BMS_Hint_Interact2"				"%+use%STISKNOUT TLAČÍTKO"
+		"BMS_Hint_AmmoCrate"			"%+use%VZÍT MUNICI Z BEDNY"
+		"BMS_Hint_50cal"							"%+use%POUŽÍT KULOMET"
+		"BMS_Hint_TOW"							"%+use%POUŽÍT PROTITANKOVÝ KANÓN%+attack%STŘÍLET Z KANÓNU"
+		"BMS_Hint_TOW_Reload"		"%+use%OPUSŤ KANÓN\nA MANUÁLNĚ PŘEBIJ"
+		"BMS_Hint_Throw"						"%+attack%HODIT PŘEDMĚT"
+		"BMS_Hint_Mortar"						"%+attack%NA OBRAZOVKU\nPRO PŘIDÁNÍ CÍLE%+attack%NA TLAČÍTKO „FIRE“\nPRO PALBU NA CÍL"
+		
+	//Weapons hints
+		"BMS_Hint_Crowbar"					"%+attack%ÚTOČIT"
+		"BMS_Hint_357"								"%+attack%FIRE%+attack2%MÍŘIT MÍŘIDLY"
+		"BMS_Hint_9MM"							"%+attack%VYSTŘELIT%+attack2%RYCHLÁ STŘELBA"
+		"BMS_Hint_MP5"							"%+attack2%VYSTŘELIT Z GRANÁTOMETU"
+		"BMS_Hint_Shotgun"					"%+attack2%VYSTŘELIT Z OBOU HLAVNÍ"
+		"BMS_Hint_RPG"							"%+attack2%PŘEPNOUT LASEROVÉ NAVÁDĚNÍ"
+		"BMS_Hint_Frag"							"%+attack%HODIT GRANÁT%+attack2%KUTÁLET GRANÁT"
+		"BMS_Hint_Satchel"						"%+attack%HODIT NÁLOŽ%+attack2%ODPÁLIT NÁLOŽ"
+		"BMS_Hint_Snark"							"%+attack%HODIT SNARKA"
+		
+	//%xmove% and %xlook% are usually unbound when you are playing on kb/m,
+	//so hints will show < not assigned > instead of controller sticks.
+	//I made it show W/S keys instead of that.
+	//When controller is enabled and it's scheme is executed, it shows LS and RS.
+	//Those are actually not used in PC version of source engine, they were meant for
+	//Xbox 360, so they are doing nothing and bound to fake "buttons".
+		"BMS_Hint_Train"							"%+use%NATOUPIT/VYSTOUPIT Z DREZÍNY%xmove%PŘIDAT/UBRAT PLYN"
+		"BMS_Hint_Ladder"						"%+use%CHYTIT/PUSTIT SE ŽEBŘÍKU%xmove%POHYB NAHORU/DOLŮ%+jump%SESKOČIT"
+
+//BS-only hints
+		"BS_Hint_Crowbar"				"%+use%VZÍT SI PÁČIDLO OD VĚDCE"
+		"BS_Hint_ArmorVest"				"%+use%NASADIT SI NOVOU VESTU"
+		"BS_Hint_ArmorHelmet"				"%+use%NASADIT SI NOVOU HELMU"
+
+		"BS_Hint_Intro"				"%+use%ZADAT PIN KÓD"
+		"BS_Hint_Intro2"			"%+use%ZAKLEPAT NA DVEŘE"
+
+		"BS_Hint_Locker"			"%+use%OTEVŘÍT SKŘÍŇKU"
+		"BS_Hint_Armory"			"%+use%VZÍT SVOU ZBRAŇ"
+		"BS_Hint_Retinal"			"%+use%PODRŽ PRO POUŽITÍ OČNÍHO SKENERU"
+		"BS_Hint_Camera"			"%xmove%PŘEPNOUT\nNA DALŠÍ/PŘEDCHOZÍ KAMERU"
+		"BS_Hint_Camera2"			"%+attack%ZKONTROLOVAT, ZDA KAMERA FUNGUJE"
+		"BS_Hint_Range"				"%+use%[POBLÍŽ STOJANU]\nNASADIT/SUNDAT SI OCHRANNOU VÝBAVU"
+
+		"BS_Hint_ElevatorPull"			"%+use%ZATÁHNOUT ZA NOUZOVOU PÁKU"
+
+//Why is it here?
+		"BMS_AmmoFull"									"PLNÉ"
+		"GameUI_AdjustGammaButt"		"Přizpůsobit Gammu"
+		"BMS_Weapon_Switching"	"Zbraně"
+		
+// GAME UI  - GAME SAVED NOTIFICATION
+		"BMS_SAVED"										"Uloženo..."
+		
+//BMS BINDINGS
+
+		"BMS_Switch_Crowbar"			"Páčidlo"
+		"BMS_Switch_Glock"				"Pistole"
+		"BMS_Switch_357"					"Revolver"
+		"BMS_Switch_mp5"					"Samopal"
+		"BMS_Switch_shotgun"			"Brokovnice"
+		"BMS_Switch_rpg"					"Raketomet"
+		"BMS_Switch_frag"					"Granát"
+		"BMS_Switch_satchel"			"Nálož"
+		"BMS_Switch_snark"				"Snarkové"
+	} 
+}

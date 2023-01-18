@@ -22,8 +22,6 @@ Note: this tutorial is made for the Czech translations, but it should work with 
 11. Drag & drop the whole `root` folder on the `vpk.exe` file located in `Black Mesa/bin` (see above)
 12. Wait for the compiling process to complete and then rename the compiled file to `bshift_misc_dir.vpk`
 13. Lastly, move the compiled file to your `Black Mesa/bshift` directory (see above)
-### Use Czech subtitles
-I've not yet figured out how to add subtitles to Blue Shift's menu, so you'll need to first change the subtitles to Czech in normal Black Mesa and then launch Blue Shift (without touching the audio settings there).
 
 If you need help with something, feel free to [contact me on Steam](https://steamcommunity.com/id/Fjuro)!
 
@@ -50,7 +48,5 @@ If you need help with something, feel free to [contact me on Steam](https://stea
 11. Přesuňte celou složku `root` na soubor `vpk.exe`, který se nachází ve složce `Black Mesa/bin` (viz výše)
 12. Počkejte, než bude kompilace dokončena a poté přejmenujte zkompilovaný soubor na `bshift_misc_dir.vpk`
 13. Nakonec přesuňte zkompilovaný soubor do adresáře `Black Mesa/bshift` (viz výše)
-### Použití českých titulků
-Zatím jsem nepřišel na způsob, jak přidat titulky do menu Blue Shiftu, takže nejprve budete muset změnit jazyk titulků v normální Black Mese na češtinu a poté spustit Blue Shift (a v něm na nastavení zvuku už nesahat).
 
 Pokud potřebujete s čímkoli pomoct, [kontaktujte mě na Steamu](https://steamcommunity.com/id/Fjuro)!
